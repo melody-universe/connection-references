@@ -13,10 +13,10 @@
     "Title1": 8
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/04/2022 14:47:53",
+  "HeaderLastSavedDateTimeUTC": "05/04/2022 21:29:12",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "7c481fb2-4918-4fea-b96a-33d541b3c7db": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/eccad584f275403aa4c05702870e7d7b\""
+    "764ffc66-bf59-47d6-980a-31daaa4c94e1": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/9567ba18a4ca4edfbc7ce899a1e40316\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -54,7 +54,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1245667,
+    "AnalysisLoadTime": 0.11866309999999999,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
@@ -64,7 +64,7 @@
       "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.55823259999999997,
+    "DeserializationLoadTime": 1.1676801999999999,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true

@@ -73,7 +73,7 @@ Screen1 As screen:
         FontWeight: =FontWeight.Bold
         Height: =84
         Size: =24
-        Text: ="Accounts"
+        Text: ="Accounts With Changes"
         Width: =1366
         ZIndex: =2
 

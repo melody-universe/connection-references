@@ -1,13 +1,14 @@
-param(
-    [Parameter(Mandatory=$true)]
-    [string]$zipFilePath
-)
+pac solution export `
+    -p dev.zip `
+    -n Core2 `
+    -m `
+    -a
 
 Remove-Item ./solution -Recurse -Force -ErrorAction Ignore
 Remove-Item ./canvas -Recurse -Force -ErrorAction Ignore
 
 pac solution unpack `
-    --zipfile $zipFilePath `
+    --zipfile dev.zip `
     --folder solution `
     --packagetype Managed
 
