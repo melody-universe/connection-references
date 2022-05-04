@@ -1,0 +1,71 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
+    "Image1": 7,
+    "Label1": 4,
+    "NextArrow1": 9,
+    "Screen1": 3,
+    "Separator1": 11,
+    "Subtitle1": 10,
+    "Title1": 8
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "05/04/2022 14:47:53",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "7c481fb2-4918-4fea-b96a-33d541b3c7db": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/eccad584f275403aa4c05702870e7d7b\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "Account": 0,
+    "CustomGallerySample": 1
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 1,
+    "icon": 3,
+    "image": 2,
+    "label": 0,
+    "rectangle": 4
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Gallery1": 1,
+    "galleryTemplate1": 2,
+    "Image1": 3,
+    "Label1": 0,
+    "NextArrow1": 5,
+    "Screen1": 0,
+    "Separator1": 7,
+    "Subtitle1": 6,
+    "Title1": 4
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1245667,
+    "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 3,
+      "rectangle": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.55823259999999997,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}

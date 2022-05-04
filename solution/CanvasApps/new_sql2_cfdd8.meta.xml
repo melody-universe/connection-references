@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>new_sql2_cfdd8</Name>
+  <AppVersion>2022-05-04T14:50:57Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22034.17.0</CreatedByClientVersion>
+  <MinClientVersion>3.22034.17.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"6d51c400-5a4e-4cd7-9cd0-1372eeb98c6b","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22034.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>SQL 2</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"7c481fb2-4918-4fea-b96a-33d541b3c7db":{"id":"/providers/microsoft.powerapps/apis/shared_sql","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/non_zr_connectors/1.0.1575.2789/sql/icon.png","dataSources":["Account"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"gatewayObjectIdHint":"f68374c4-beb6-4c45-ae72-92d2897ce9b9","isOnPremiseConnection":true,"sharedConnectionId":"ab873d20-080a-4a97-b472-a9ba1898d18c","bypassConsent":false,"dataSets":{"connection-refe,master":{"dataSources":{"Account":{"tableName":"[dbo].[Account]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read"],"endpoints":["connection-refe,master"],"authenticationType":"sqlAuthentication"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/new_sql2_cfdd8_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/new_sql2_cfdd8_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
