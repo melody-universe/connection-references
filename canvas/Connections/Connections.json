@@ -1,21 +1,18 @@
 {
-  "764ffc66-bf59-47d6-980a-31daaa4c94e1": {
+  "427e4152-5aa2-4405-80da-0714ce51db55": {
     "connectionParameters": {
       "database": "master",
       "privacySetting": "None",
       "server": "connection-refe"
     },
     "connectionRef": {
-      "apiTier": "Premium",
       "authenticationType": "sqlAuthentication",
       "displayName": "SQL Server",
       "gatewayObjectIdHint": "f68374c4-beb6-4c45-ae72-92d2897ce9b9",
       "iconUri": "https://connectoricons-prod.azureedge.net/non_zr_connectors/1.0.1575.2789/sql/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_sql",
       "isOnPremiseConnection": true,
-      "parameterHints": {},
-      "parameterHintsV2": {},
-      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/9567ba18a4ca4edfbc7ce899a1e40316"
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/eccad584f275403aa4c05702870e7d7b"
     },
     "datasets": {
       "connection-refe,master": {
@@ -31,6 +28,6 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "764ffc66-bf59-47d6-980a-31daaa4c94e1"
+    "id": "427e4152-5aa2-4405-80da-0714ce51db55"
   }
 }

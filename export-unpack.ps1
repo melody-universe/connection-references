@@ -1,4 +1,5 @@
 Remove-Item ./dev.zip -ErrorAction Ignore
+Remove-Item ./dev_managed.zip -ErrorAction Ignore
 
 pac solution export `
     --path dev.zip `
