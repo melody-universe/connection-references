@@ -1,10 +1,25 @@
-$json = Get-Content ./canvas/Connections/Connections.json | ConvertFrom-Json
-$sharedConnId = Write-Host $json."764ffc66-bf59-47d6-980a-31daaa4c94e1".connectionRef.sharedConnectionId
-$json."764ffc66-bf59-47d6-980a-31daaa4c94e1".connectionRef.sharedConnectionId = `
-    "/providers/microsoft.powerapps/apis/shared_sql/connections/eccad584f275403aa4c05702870e7d7b"
-Set-Content ./canvas/Connections/Connections.json (ConvertTo-Json $json)
+param(
+    [string]$packageType
+)
+if(-not $packageType) {
+    $packageType = "Managed"
+}
+<#
+$contents = Get-Content ./canvas/Connections/Connections.json
+Set-Content `
+    ./canvas/Connections/Connections.json `
+    ($contents -Replace `
+        "/providers/microsoft.powerapps/apis/shared_sql/connections/[^`"]*",
+        "/providers/microsoft.powerapps/apis/shared_sql/connections/eccad584f275403aa4c05702870e7d7b"
+    )
 
-exit
+$contents = Get-Content ./solution/CanvasApps/new_sql2_cfdd8.meta.xml
+Set-Content ./solution/CanvasApps/new_sql2_cfdd8.meta.xml `
+    ($contents -Replace `
+        '"sharedConnectionId":"[^"]*"',
+        '"sharedConnectionId":"ab873d20-080a-4a97-b472-a9ba1898d18c"'
+    )
+#>
 
 pac canvas pack `
     --sources canvas `
@@ -13,9 +28,10 @@ pac canvas pack `
 pac solution pack `
     --zipfile dev.zip `
     --folder solution `
-    --packagetype Managed
+    --packagetype $packageType
 
 pac solution import `
     --path dev.zip `
     --activate-plugins `
+    --convert-to-managed `
     --async

@@ -1,10 +1,15 @@
 Remove-Item ./dev.zip -ErrorAction Ignore
 
 pac solution export `
-    -p dev.zip `
-    -n Core2 `
-    -m `
-    -a
+    --path dev.zip `
+    --name Core2 `
+    --async
+
+pac solution export `
+    --path dev_managed.zip `
+    --name Core2 `
+    --managed `
+    --async
 
 Remove-Item ./solution -Recurse -Force -ErrorAction Ignore
 Remove-Item ./canvas -Recurse -Force -ErrorAction Ignore
@@ -12,7 +17,7 @@ Remove-Item ./canvas -Recurse -Force -ErrorAction Ignore
 pac solution unpack `
     --zipfile dev.zip `
     --folder solution `
-    --packagetype Managed
+    --packagetype Both
 
 pac canvas unpack `
     --sources canvas `
