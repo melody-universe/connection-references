@@ -9,11 +9,10 @@
     "NextArrow1": 9,
     "Screen1": 3,
     "Separator1": 11,
-    "Subtitle1": 10,
     "Title1": 8
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/04/2022 21:29:12",
+  "HeaderLastSavedDateTimeUTC": "05/04/2022 21:48:50",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "764ffc66-bf59-47d6-980a-31daaa4c94e1": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/9567ba18a4ca4edfbc7ce899a1e40316\""
@@ -45,8 +44,7 @@
     "Label1": 0,
     "NextArrow1": 5,
     "Screen1": 0,
-    "Separator1": 7,
-    "Subtitle1": 6,
+    "Separator1": 6,
     "Title1": 4
   },
   "ResourcesJsonIndices": {

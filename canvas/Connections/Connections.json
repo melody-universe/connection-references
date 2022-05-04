@@ -15,7 +15,7 @@
       "isOnPremiseConnection": true,
       "parameterHints": {},
       "parameterHintsV2": {},
-      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/eccad584f275403aa4c05702870e7d7b"
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/9567ba18a4ca4edfbc7ce899a1e40316"
     },
     "datasets": {
       "connection-refe,master": {

@@ -1,3 +1,5 @@
+Remove-Item ./dev.zip -ErrorAction Ignore
+
 pac solution export `
     -p dev.zip `
     -n Core2 `

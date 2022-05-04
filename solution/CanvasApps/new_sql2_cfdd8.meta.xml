@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>new_sql2_cfdd8</Name>
-  <AppVersion>2022-05-04T21:29:13Z</AppVersion>
+  <AppVersion>2022-05-04T21:48:51Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22034.17.0</CreatedByClientVersion>
   <MinClientVersion>3.22034.17.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"6855bd28-0330-4016-b1ea-271e34f58612","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22034.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"3c5490c3-ec94-4c0a-b3db-d410fea68507","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22034.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"7c481fb2-4918-4fea-b96a-33d541b3c7db":{"id":"/providers/microsoft.powerapps/apis/shared_sql","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/non_zr_connectors/1.0.1575.2789/sql/icon.png","dataSources":["Account"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"gatewayObjectIdHint":"f68374c4-beb6-4c45-ae72-92d2897ce9b9","isOnPremiseConnection":true,"sharedConnectionId":"ab873d20-080a-4a97-b472-a9ba1898d18c","bypassConsent":false,"dataSets":{"connection-refe,master":{"dataSources":{"Account":{"tableName":"[dbo].[Account]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read"],"endpoints":["connection-refe,master"],"authenticationType":"sqlAuthentication"}}</ConnectionReferences>
+  <ConnectionReferences>{"764ffc66-bf59-47d6-980a-31daaa4c94e1":{"id":"/providers/microsoft.powerapps/apis/shared_sql","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/non_zr_connectors/1.0.1575.2789/sql/icon.png","dataSources":["Account"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"gatewayObjectIdHint":"f68374c4-beb6-4c45-ae72-92d2897ce9b9","isOnPremiseConnection":true,"sharedConnectionId":"ee996e2d-bc2c-4fe2-93b1-871208f0b8fe","bypassConsent":false,"dataSets":{"connection-refe,master":{"dataSources":{"Account":{"tableName":"[dbo].[Account]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read"],"endpoints":["connection-refe,master"],"authenticationType":"sqlAuthentication"}}</ConnectionReferences>
   <DatabaseReferences>{}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
